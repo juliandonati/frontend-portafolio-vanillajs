@@ -1,0 +1,30 @@
+#login-main {
+    gap: 10rem;
+
+    & h1 {
+        font-size: 4rem;
+        text-decoration: underline;
+    }
+
+    & #loginForm {
+        display: flex;
+        flex-direction: column;
+        gap: 5rem;
+
+        align-items: center;
+
+
+        & div {
+            font-size: 2rem;
+            display: flex;
+            flex-direction: column;
+
+            width: 25rem;
+
+            & input,
+            label {
+                width: 100%;
+            }
+        }
+    }
+}

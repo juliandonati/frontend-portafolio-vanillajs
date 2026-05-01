@@ -1,0 +1,137 @@
+#portafolio-main {
+    width: 100%;
+    margin-bottom: 10rem;
+
+    & #hero {
+        background: linear-gradient(
+            transparent 0%,
+            var(--primary-color-solid) 5%,
+            var(--primary-color-solid) 95%,
+            transparent 100%
+        );
+        color: var(--secondary-color-solid);
+        width: 100%;
+        height: 50rem;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        & h2 {
+            font-size: 4rem;
+        }
+
+        & h3 {
+            font-size: 3rem;
+        }
+
+        & p {
+            font-size: 2rem;
+        }
+
+        & .img-container {
+            width: 20rem;
+            height: 20rem;
+        }
+    }
+
+    display:flex;
+    flex-direction: column;
+
+    margin-top:2rem;
+    width: 100%;
+
+    gap:2rem;
+
+    & #about-me {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        background: linear-gradient(
+            transparent 0%,
+            var(--primary-color-solid) 5%,
+            var(--primary-color-solid) 95%,
+            transparent 100%
+        );
+        color: var(--secondary-color-solid);
+
+        & h2 {
+            font-size: 3rem;
+        }
+
+        & p {
+            font-size: 2rem;
+        }
+    }
+
+    & #skills {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+
+        background: linear-gradient(
+            transparent 0%,
+            var(--primary-color-solid) 5%,
+            var(--primary-color-solid) 95%,
+            transparent 100%
+        );
+        color: var(--secondary-color-solid);
+
+        & h2 {
+            font-size: 3rem;
+        }
+
+        & #skill-section {
+            display: flex;
+            flex-direction: row-reverse;
+
+            & .skill-card {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                background-color: var(--secondary-color-solid);
+                color: var(--primary-color-solid);
+                width: 30rem;
+                height: 15rem;
+
+                & .card-important-info {
+
+
+                    display: flex;
+                    flex-direction: column;
+                    text-align: center;
+
+                    & h3 {
+                        margin-top: .5rem;
+                        margin-bottom: .5rem;
+                        font-size: 2rem;
+
+                        text-decoration: underline;
+                    }
+
+                    & strong {
+                        margin-top: .5rem;
+
+
+                    }
+                }
+
+                & .card-info {
+                    display: flex;
+                    flex-direction: row;
+
+                    margin-top: 1rem;
+
+                    & .img-container {
+                        width: 5rem;
+                        height: 5rem;
+                    }
+                }
+            }
+        }
+    }
+}

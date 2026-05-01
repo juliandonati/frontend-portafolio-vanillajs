@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/general.css">
+    <link rel="stylesheet" href="/css/login-form.css">
+    <link rel="stylesheet" href="/css/portafolio.css">
+    <link rel="stylesheet" href="/css/home.css">
+    <link rel="stylesheet" href="/css/control-panel.css">
+    <link rel="stylesheet" href="/css/error-page.css">
+    <link rel="stylesheet" href="/css/portafolio-edit.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Port-A-Folio</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">Inicio</a></li>
+                <li id="login-option"><a href="/login">Iniciar sesión</a></li>
+                <li id="logout-option" class="hidden"><a href="/logout">Cerrar sesión</a></li>
+                <li id="control-panel-option" class="hidden"><a href="/control-panel">PANEL DE CONTROL</a></li>
+            </ul>
+        </nav>
+    </header>    
+
+    <dialog>
+        <p>Error Placeholder</p>
+        <button id="close-dialog-btn">Entendido</button>
+    </dialog>
+
+    <div id="app">
+        <!-- Aquí va la SPA -->
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Julián Donati. Todos los Derechos Reservados.</p>
+    </footer>
+
+    <script type="module" src="/js/index.js"></script>
+</body>
+</html>

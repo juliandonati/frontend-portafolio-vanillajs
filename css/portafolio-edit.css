@@ -1,0 +1,128 @@
+#portafolio-edit-nav {
+    width: 100%;
+
+    & ul {
+        display: flex;
+        list-style: none;
+
+        & li {
+            margin: 0 auto;
+            padding: 0;
+        }
+    }
+}
+
+h2 {
+    text-align: center;
+    font-size: 3rem;
+
+    text-decoration: underline;
+    margin-bottom: 5rem;
+}
+
+#hero-form {
+    display: flex;
+    flex-direction: column;
+
+    margin: 0 auto;
+
+    gap: 2rem;
+
+    & label {
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+    & .img-container {
+        max-width: 10rem;
+        max-height: 10rem;
+        margin: 0 auto;
+    }
+}
+
+th,
+td {
+    box-shadow: 0 0 .2rem black;
+    padding: 2rem;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+th {
+    font-size: 1.5rem;
+}
+
+td {
+    font-size: 1.2rem;
+}
+
+table {
+    & tbody {
+        & tr {
+            height: 4rem;
+            & td{
+                height: 7rem;
+            }
+
+            & .table-btn-container {
+                display: grid;
+                grid-template-columns: 4rem 4rem;
+                gap: 2rem;
+
+                & a {
+                    cursor: pointer;
+                }
+
+                & i {
+                    font-size: 4rem;
+                    transition: all .1s ease-in;
+
+                    &:hover {
+                        color: red;
+                    }
+                }
+            }
+
+            & .table-img-container {
+                padding: 0;
+                height: 6rem;
+                width: 6rem;
+
+                & img {
+                    margin: 0 auto;
+                    padding:0;
+                    height: 100%;
+                    width: 100%;
+                                 
+
+                    object-fit: fill;
+                }
+            }
+        }
+
+
+    }
+
+}
+
+#degree-form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    width: 75%;
+    margin: 0 auto;
+
+    & label {
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+    & .img-container {
+        max-width: 10rem;
+        max-height: 10rem;
+        margin: 0 auto;
+    }
+}
